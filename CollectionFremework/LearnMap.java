@@ -19,7 +19,7 @@ public class LearnMap {
         int aliceAge = hashMap.get("Alice");
         System.out.println("Alice's age: " + aliceAge);
 
-        // Check if the map contains a specific key
+        // Check if the map contains a specific key 
         boolean containsBob = hashMap.containsKey("Bob");
         System.out.println("Contains key 'Bob': " + containsBob);
 
