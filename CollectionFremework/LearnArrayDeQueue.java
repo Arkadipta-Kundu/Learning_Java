@@ -4,7 +4,7 @@ import java.util.Iterator;
 
 public class LearnArrayDeQueue {
     public static void main(String[] args) {
-        // Create an ArrayDeque instance
+        // Create an ArrayDeque instance 
         ArrayDeque<Integer> deQueue = new ArrayDeque<>();
 
         // Add elements to the front and back of the deque

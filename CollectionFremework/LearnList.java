@@ -26,7 +26,7 @@ public class LearnList {
 
         // Access elements by index
         System.out.println("Element at index 2: " + list.get(2));
-
+ 
         // Modify elements by index
         list.set(2, 20);
         System.out.println("List after setting element at index 2: " + list);

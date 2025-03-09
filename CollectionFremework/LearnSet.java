@@ -11,7 +11,7 @@ public class LearnSet {
         Set<Integer> hset = new HashSet<>();
 
         // Adding elements to the HashSet
-        hset.add(12);
+        hset.add(12); 
         hset.add(12); // Duplicate element, will not be added
         hset.add(15);
         hset.add(16);

@@ -7,7 +7,7 @@ public class LearnPriorityQueue {
     public static void main(String[] args) {
         // Create a PriorityQueue of integers
         Queue<Integer> pq = new PriorityQueue<>();
-
+ 
         // Add elements to the PriorityQueue
         pq.offer(18);
         pq.offer(12);

@@ -23,7 +23,7 @@ public class LearnMap {
         boolean containsBob = hashMap.containsKey("Bob");
         System.out.println("Contains key 'Bob': " + containsBob);
 
-        // Check if the map contains a specific value
+        // Check if the map contains a specific value 
         boolean containsAge30 = hashMap.containsValue(30);
         System.out.println("Contains value 30: " + containsAge30);
 

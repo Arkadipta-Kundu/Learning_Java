@@ -7,7 +7,7 @@ public class StackCode {
         // Create a stack of integers
         Stack<Integer> stack = new Stack<>();
 
-        // Push elements onto the stack
+        // Push elements onto the stack 
         stack.push(12);
         stack.push(16);
         stack.push(20);
