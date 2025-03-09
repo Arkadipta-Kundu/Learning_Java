@@ -1,6 +1,7 @@
 package CollectionFremework;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -24,6 +25,21 @@ public class LearnSet {
         boolean contains15 = hset.contains(15);
         System.out.println("HashSet contains 15: " + contains15); // Output: true
 
+        // Checking the size of the HashSet
+        int size = hset.size();
+        System.out.println("Size of HashSet: " + size); // Output: 2
+
+        // Iterating through the HashSet
+        System.out.print("Iterating through HashSet: ");
+        for (Integer num : hset) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+
+        // Clearing the HashSet
+        hset.clear();
+        System.out.println("HashSet after clearing: " + hset); // Output: []
+
         // Using TreeSet to demonstrate sorted set operations
         Set<Integer> tset = new TreeSet<>();
 
@@ -42,8 +58,24 @@ public class LearnSet {
         boolean contains20 = tset.contains(20);
         System.out.println("TreeSet contains 20: " + contains20); // Output: true
 
+        // Checking the size of the TreeSet
+        int tsetSize = tset.size();
+        System.out.println("Size of TreeSet: " + tsetSize); // Output: 3
+
+        // Iterating through the TreeSet
+        System.out.print("Iterating through TreeSet: ");
+        Iterator<Integer> iterator = tset.iterator();
+        while (iterator.hasNext()) {
+            System.out.print(iterator.next() + " ");
+        }
+        System.out.println();
+
         // Demonstrating the sorted nature of TreeSet
         tset.add(18);
         System.out.println("TreeSet after adding 18: " + tset); // Output: [16, 18, 20, 21]
+
+        // Clearing the TreeSet
+        tset.clear();
+        System.out.println("TreeSet after clearing: " + tset); // Output: []
     }
 }
